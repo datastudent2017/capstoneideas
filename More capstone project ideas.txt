@@ -1,0 +1,22 @@
+Capstone Project Ideas: 
+
+Background: Company A has equipped it’s service van fleet with GPS monitoring tools. (200+ vans) Can we use these tools to improve business operations? 
+
+1) GPS Dataset - Driver Risk and Behavior
+Drivers are not monitored for high risk behavior. Currently, the company has X accidents per year costing Y dollars. If we tracked risky behavior in a more careful way, we could potentially decrease the amount of accidents and improve safety. Can we identify outliers and predict high drivers with a high risk? 
+
+Here, we would have the past accident data, as well as the past GPS tracking information, to identify which drivers have gotten into an accident. The GPS system can record driver speed, incidents of hard braking, rapid acceleration events, and other incidents that could be linked to safety. Can we build a model as to how risky a driver is behaving? 
+
+2) GPS Dataset - Reducing Fleet Idle Hours 
+Idle time - running the van at a stop - can unnecessarily run up the fleet fuel charges. Currently, we average 5,000 idle hours per month, according to the GPS system. This is over $100,000 / year in fuel. Can we identify trends and outliers and setup ways to reduce this? 
+
+For example, we could find which drivers spend the most time idle and notify them and their managers. We can attempt to see if there's a link between idle time and other behaviors - such as city driving, high risk driver behavior, and so on. 
+
+3) Alternative Data Set: Kaggle Competition - Horse Racing 
+There are a number of Horse Racing Kaggle datasets, such as "Horses for Courses", or "Horse Racing in HK", which are interesting and are not as over-done as I'd have expected. For example: 
+
+http://blog.kaggle.com/2016/10/05/open-data-spotlight-horses-for-courses-luke-byrne/
+
+The obvious angle to to attempt to find at least some "rules of thumb" when betting on horse races. For example - is there any link between horses being older/younger, heavier/lighter, starting position, jockey, etc.
+
+A more advanced task would be to attempt to build a prediction engine that might "beat the market" and allow you to edge out the bookies. Card counting for horse racing.
